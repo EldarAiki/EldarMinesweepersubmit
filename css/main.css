@@ -1,0 +1,136 @@
+
+
+
+.field {
+
+    background-color:rgba(175, 175, 175, 0.212);
+    text-align: center;
+    margin: auto;
+    
+    
+}
+
+/* .table {
+    text-align: center;
+} */
+
+.unopen {
+    background: linear-gradient(to top,  rgb(95, 95, 95), rgb(188, 189, 183));
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(53, 53, 53);
+    
+}
+
+
+
+
+.cellOpen {
+    background: linear-gradient(to top,  rgb(119, 170, 170), rgb(202, 237, 253));
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid rgb(53, 53, 53);
+}
+
+.blown {
+    background-color: red;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid rgb(53, 53, 53);
+}
+
+
+.marked {
+    background-color: rgb(176, 127, 255);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid rgb(53, 53, 53);
+
+}
+
+.resetBtn {
+    background: linear-gradient(to top,  rgb(103, 109, 109), rgb(81, 77, 83));
+    margin: 5px;
+    align-self: center;
+    
+}
+
+.topUI {
+
+    text-align: center;
+    
+}
+
+
+.uncovered {
+    background-color: rgba(221, 188, 41, 0.781);
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid rgb(53, 53, 53);
+}
+
+.lives {
+
+    color: red;
+    /* margin: 5px; */
+    font-size: 30px;
+    padding: 10px;
+
+}
+
+.beginner {
+    background: linear-gradient(to top,  rgb(160, 167, 167), rgb(130, 128, 131));
+    align-self: center;
+    margin-bottom: 10px;
+
+    
+}
+
+.medium {
+    background: linear-gradient(to top,  rgb(160, 167, 167), rgb(130, 128, 131));
+    align-self: center;
+    margin-bottom: 10px;
+    
+}
+
+.expert {
+    background: linear-gradient(to top,  rgb(160, 167, 167), rgb(130, 128, 131));
+    align-self: center;
+    margin-bottom: 10px;
+    
+}
+
+.bestscore {
+
+    font-size: 20px;
+    margin: 5px;
+
+
+}
+
+
+.reveal {
+    background: linear-gradient(to top,  rgb(29, 139, 230), rgb(221, 132, 209));
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    border: 1px solid rgb(53, 53, 53);
+}
+
+.footer {
+
+    text-align: center;
+    padding-bottom: 5px ;
+}
+
+
+
+
+
+
+
+

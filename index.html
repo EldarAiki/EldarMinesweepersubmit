@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>minesweeper</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body onload="init()">
+
+    <div class="topUI">
+        <h1 class="bestscore">best score:</h1>
+        <h1 class="lives"></h1>
+         <h1 class="timer">time: 0</h1> 
+         <h1 class="remaining">0</h1>
+        <button  class="resetBtn" onclick="reastartGame()">🙂</button>
+        <br>
+        <button  class="resetBtn" onclick="hint()">💡</button>
+        <br>
+        <button  class="beginner" onclick="beginner()">Begginer</button>
+        <button  class="medium" onclick="medium()">medium</button>
+        <button  class="expert" onclick="expert()">expert</button>
+       
+    </div>
+    <table class="field">
+
+      
+
+    </table>
+
+    <p class="footer">Eldar's minesweeper</p>
+
+
+    <script src="js/utils.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
